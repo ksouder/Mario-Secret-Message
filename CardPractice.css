@@ -1,0 +1,363 @@
+@font-face{
+    font-family:'Super Mario Brothers 256';
+    src: url('/Users/kaitlinwilson/Library/Fonts/SuperMario256.ttf');
+}
+
+th{
+    font-family:'Super Mario 256';
+    color:red;
+    text-shadow: 1px 2px 2px white;
+    font-size: 30px;
+}
+
+
+.maincontainer{
+    position:relative;
+    width:100px;
+    height:100px;
+}
+/*--Card 1 - Top L2R--*/
+.thecard{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard:hover{
+    transform:rotateY(180deg);
+}
+.thefront{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("tcard.png");
+    background-size:100% 100%
+}
+
+/*--Card 2 - Top L2R--*/
+
+.thecard2{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard2:hover{
+    transform:rotateY(180deg);
+}
+.thefront2{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback2{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("ocard.png");
+    background-size:100% 100%
+}
+
+/*--Card 3 - Top L2R--*/
+
+.thecard3{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard3:hover{
+    transform:rotateY(180deg);
+}
+.thefront3{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback3{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("fcard.png");
+    background-size:100% 100%
+}
+
+
+/*--Card 4--*/
+
+.thecard4{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard4:hover{
+    transform:rotateY(180deg);
+}
+.thefront4{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback4{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("scard.png");
+    background-size:100% 100%
+}
+
+
+
+/*--Card 5--*/
+
+.thecard5{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard5:hover{
+    transform:rotateY(180deg);
+}
+.thefront5{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback5{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("mcard.png");
+    background-size:100% 100%
+}
+
+
+/*--Card 6--*/
+
+.thecard6{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard6:hover{
+    transform:rotateY(180deg);
+}
+.thefront6{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback6{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("ccard.png");
+    background-size:100% 100%
+}
+
+
+/*--Card 7--*/
+
+.thecard7{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard7:hover{
+    transform:rotateY(180deg);
+}
+.thefront7{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback7{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("rcard.png");
+    background-size:100% 100%
+}
+
+/*--Card 8--*/
+
+.thecard8{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard8:hover{
+    transform:rotateY(180deg);
+}
+.thefront8{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback8{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("hcard.png");
+    background-size:100% 100%
+}
+
+/*--Card 9--*/
+
+.thecard9{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: all 0.5s ease;
+
+}
+
+.thecard9:hover{
+    transform:rotateY(180deg);
+}
+.thefront9{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background-image:url("YellowBrick.png");
+    color:white;
+    text-align:center;
+    font-family:'Super Mario Brothers 256';
+    text-shadow: 1px 3px #4a4a4a;
+    line-height:2;
+    font-size:60px;
+}
+
+.theback9{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    transform:rotateY(180deg);
+    background-image: url("acard.png");
+    background-size:100% 100%
+}
